@@ -12,7 +12,7 @@ RUN apk add --no-cache binutils \
          --compress=2 \
          --output /javaruntime
 
-FROM alpine:3.18.0
+FROM alpine:3.18.3
 
 RUN apk add --no-cache \
     bash \
